@@ -2,8 +2,8 @@
 
 Seba Shongi is a community service event platform. Neighbours create clean-ups, plantations, food drives and donation camps, and other people find an event and join it. This is the website (Next.js). It talks to the Seba Shongi server for events and uses BetterAuth for login.
 
-- Live site: add your live link here after deploying
-- Server (API) repo: add the server repo link here
+- Live site: https://b14-a8-client-qole.vercel.app
+- Server (API) repo: https://github.com/skpervez4321/b14-a8-server
 
 ## Main features
 
@@ -31,6 +31,6 @@ Next.js (App Router), JavaScript, Tailwind CSS, DaisyUI, BetterAuth (email, GitH
 On GitHub open Settings, Developer settings, OAuth Apps, New OAuth App.
 
 - Homepage URL: your site address (for local use http://localhost:3000)
-- Authorization callback URL: your site address followed by `/api/auth/callback/github`
+- Redirect URI (called Authorization callback URL on some forms): your site address followed by /api/auth/callback/github``
 
 Put the Client ID and Client Secret in `.env.local` (and in Vercel for the live site).
